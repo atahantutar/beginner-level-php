@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+}
+
+.main{
+   height: 721px;
+   width: 100%;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cs{
+    padding:25px; margin-top: 100px; margin-bottom: 100px; margin-left: 200px; margin-right: 200px; height:auto; background:red;
+
+
+}
+.bg{
+    background: -webkit-gradient(linear,left bottom,right top,from(#fc2c77),to(#6c4079));
+    background: -webkit-linear-gradient(bottom left,#9c3978 0%,#6c4079 100%);
+    background: -moz-linear-gradient(bottom left,#fc2c77 0%,#6c4079 100%);
+    background: -o-linear-gradient(bottom left,#fc2c77 0%,#6c4079 100%);
+    background: linear-gradient(to top right,#fc2c77 0%,#6c4079 100%);
+}
+.container{
+    height: 400px;
+    width: 750px;
+background-color: bisque;
+border-radius: 7px;
+
+justify-content: space-between;
+}
+
+/*<div class="al-center border-rl m">
+    <?php
+    echo "Name:".$product['Name'].'<br>';
+    echo "Price:".$product['Price'].'<br>';
+    echo "Stock:".$product['Stock'].'<br>'.'<hr>';
+    ?>
+    </div>*/
+    .advert{
+        border:1px solid white;
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
+    }
+    .adverts-content{
+        display: flex;
+        flex-wrap: wrap;
+        height: 350px;
+    }
